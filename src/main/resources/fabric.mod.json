@@ -1,0 +1,37 @@
+{
+  "schemaVersion": 1,
+  "id": "notchsplashadder",
+  "version": "${version}",
+
+  "name": "Notch Splash Adder",
+  "description": "Readds old splashes, example of SplashesAPI implementation.",
+  "authors": [
+    "jackowski626"
+  ],
+  "contact": {
+    "homepage": "",
+    "sources": ""
+  },
+
+  "license": "GPLv3",
+  "icon": "assets/notchsplashadder/icon.png",
+
+  "environment": "*",
+  "entrypoints": {
+    "main": [
+      "io.github.jackowski626.notchsplashadder.NotchSplashAdder"
+    ]
+  },
+  "mixins": [
+
+  ],
+
+  "depends": {
+    "fabricloader": ">=0.7.4",
+    "minecraft": "1.16.x",
+    "splashesapi": ">=1.0.0"
+  },
+  "suggests": {
+
+  }
+}
